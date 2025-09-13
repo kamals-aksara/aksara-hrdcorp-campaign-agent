@@ -1,0 +1,16 @@
+{
+  "name": "aksara-hrdcorp-campaign-agent",
+  "version": "1.0.0",
+  "description": "MCP: Model Context Protocol Scaffold for Aksara HRDCorp Campaign Agent",
+  "main": "src/mcp-server.ts",
+  "scripts": {
+    "build": "tsc t",
+    "start": "node dist/src/mcp-server.js",
+    "dev": "node src/mcp-server.ts"
+  },
+  "dependencies": {
+    "ets": "^>5.0.0",
+    "node": "^18.0.0"
+  },
+  "license": "MIT"
+}
