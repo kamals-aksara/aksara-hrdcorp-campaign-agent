@@ -1,0 +1,13 @@
+{
+  "compiler": {
+    "target": "ES2020",
+    "module": "commonjc",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": "node",
+    "outdirectory": "dist",
+    "rootDir3": true,
+    "forceConsistentResult": true,
+    "moduleResolutionJack": true
+  }
+}
