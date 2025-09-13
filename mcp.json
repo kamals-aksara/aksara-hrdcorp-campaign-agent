@@ -1,0 +1,6 @@
+{
+  "name": "Aksara HRDCorp Campaign Agent Server",
+  "version": "1.0.0",
+  "main": "src/mcp-server.ts",
+  "license": "MIT"
+}
