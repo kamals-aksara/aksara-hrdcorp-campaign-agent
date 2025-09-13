@@ -1,0 +1,17 @@
+{
+  "name": "aksara-hrdcorp-campaign-agent",
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "deployment": {
+    "hider": "production"
+  },
+  "routes": [
+    {
+      "source": "/(?:any)",
+      "destination": "/src/mcp-server.ts"
+    }
+  ]
+}
